@@ -1,0 +1,144 @@
+.wrapper {
+    background-color: gainsboro;
+    padding-block-end: 4%;
+}
+
+h2 {
+    text-align: center;
+    padding: 5% 0% 0% 0%;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.lorem1 {
+    text-align: center;
+    font-size: 19px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-block-start: 5%;
+}
+
+.fa-car {
+    color: red;
+}
+
+.fa-users {
+    color: red;
+    font-size: 30px;
+    /* border: 1px solid blue; */
+
+}
+
+.fa-comments {
+    color: red;
+    font-size: 15px;
+}
+
+.contact {
+    padding: 3% 6% 3% 6%;
+}
+
+.f-main {
+    display: -webkit-inline-box;
+    margin-block-start: 6%;
+}
+
+.f-sub {
+    margin-block-start: 2%;
+}
+
+.menu {
+    margin-inline-start: 850px;
+    margin-block-start: 13px;
+}
+
+.f-box1 {
+    display: inline-flex;
+}
+
+.f-box2 {
+    display: block;
+    margin-inline-start: 100px;
+    margin-block-start: -3%;
+}
+
+.circle {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    font-size: 10px;
+    color: black;
+    line-height: 70px;
+    text-align: center;
+    background: blue;
+    color: white;
+    margin-block-start: 1%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: auto;
+    border-radius: 50%;
+    text-decoration: none;
+    margin-left: 70%;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: auto;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: auto;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: auto;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: auto;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.fa-youtube {
+    background: #125688;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: auto;
+    border-radius: 50%;
+    text-decoration: none;
+}
